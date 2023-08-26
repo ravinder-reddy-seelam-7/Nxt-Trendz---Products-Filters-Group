@@ -1,0 +1,72 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+.search-container {
+  background-color: #f1f5f9;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+.search-input {
+  width: 100%;
+  background-color: #f1f5f9;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  font-weight: bold;
+}
+.search-icon {
+  margin-right: 10px;
+}
+.category-container {
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-start;
+}
+.category-heading {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.category-button {
+  background-color: transparent;
+  border: none;
+  margin-bottom: 10px;
+  color: #64748b;
+  font-weight: bold;
+}
+.rating-image {
+  width: 50%;
+}
+.rating-button {
+  background-color: transparent;
+  border: none;
+  margin-bottom: 10px;
+  color: #64748b;
+  display: flex;
+  align-items: center;
+}
+.rating-text {
+}
+.clear-filters-button {
+  color: #0967d2;
+  border: 1px solid #0967d2;
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 10px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
